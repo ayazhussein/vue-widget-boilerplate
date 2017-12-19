@@ -1,4 +1,4 @@
-# deviz-vue-simple
+# Simple Vue widget boilerplate
 
 > A Vue.js project
 
@@ -15,4 +15,12 @@ npm run dev
 npm run build
 ```
 
-For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
+## Usage after build
+
+### you can add it as a script tag src
+```javascript
+<script src="path/to/build.min.js"></script>
+<script>
+  var library = new Library('selector');
+</script>
+```
